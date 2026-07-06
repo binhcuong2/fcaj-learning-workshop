@@ -30,10 +30,10 @@ In a serverless architecture like this one, there is no single server to manage,
 
 In this section, you will:
 
-1. **[6.1 - IAM Policies](6.1-iam-policies/)**: Review and understand the Principle of Least Privilege applied to every Lambda function in the SAM template.
-2. **[6.2 - API Keys Management](6.2-api-keys-management/)**: Securely store and retrieve sensitive keys (SerpAPI, Gemini API Key) using AWS Systems Manager Parameter Store.
-3. **[6.3 - Monitoring & Alarms](6.3-monitoring-alarms/)**: Set up CloudWatch Logs, Metrics, and Alarms to monitor Lambda errors, SQS Dead Letter Queues, and API Gateway latency.
-4. **[6.4 - Cost & Budget](6.4-cost-budget/)**: Configure AWS Budgets to set spending thresholds and receive email notifications before costs exceed your limits.
+1. [IAM Policies](5.6.1-IAM-Policies/): Review and understand the Principle of Least Privilege applied to every Lambda function in the SAM template.
+2. [API Keys Management](5.6.2-API-Keys-Management/): Securely store and retrieve sensitive keys (SerpAPI, Gemini API Key) using AWS Systems Manager Parameter Store.
+3. [Monitoring & Alarms](5.6.3-Monitoring-Alarms/): Set up CloudWatch Logs, Metrics, and Alarms to monitor Lambda errors, SQS Dead Letter Queues, and API Gateway latency.
+4. [Cost & Budget](5.6.4-Cost-Budget/): Configure AWS Budgets to set spending thresholds and receive email notifications before costs exceed your limits.
 
 ### Content
 

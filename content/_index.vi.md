@@ -9,7 +9,7 @@ chapter: false
 ### Thông tin sinh viên:
 &emsp; **Họ và tên:** Dương Bình Cương
 
-&emsp; **Số điện thoại:** 038665548888
+&emsp; **Số điện thoại:** 0386655488
 &emsp; **Email:** binhcuongpy2014@gmail.com
 
 &emsp; **Trường:** Đại học Công Nghệ TP.HCM - Hutech

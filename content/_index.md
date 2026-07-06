@@ -9,7 +9,7 @@ chapter: false
 ### Student Information:
 &emsp; **Full Name:** Duong Binh Cuong
 
-&emsp; **Phone Number:** 038665548888
+&emsp; **Phone Number:** 0386655488
 &emsp; **Email:** binhcuongpy2014@gmail.com
 
 &emsp; **University:** Ho Chi Minh City University of Technology - Hutech

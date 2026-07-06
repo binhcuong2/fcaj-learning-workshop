@@ -12,7 +12,7 @@ pre: " <b> 1.12. </b> "
 * Rà soát các phần chính gồm Nhật ký công việc, Bản đề xuất, Các bài blogs đã đăng, Các events đã tham gia, Workshop, Tự đánh giá và Chia sẻ, đóng góp ý kiến.
 * Rà soát Hugo template, sidebar, front matter và các file `_index.md`, `_index.vi.md`.
 * Hoàn thiện workshop kỹ thuật CV Matching Flow.
-* Kiểm tra cách đặt ảnh trong Hugo bằng cách đặt ảnh nguồn trong `static/images/` và không chỉnh trực tiếp `public/`.
+* Kiểm tra cách đặt ảnh trong Hugo bằng cách đặt ảnh nguồn trong `static/fcaj-learning-workshop/images/` và không chỉnh trực tiếp `public/`.
 * Phân biệt nội dung nhóm và nội dung cá nhân.
 * Tổng hợp lại dữ liệu 12 tuần để viết worklog trung thực, tránh ghi nội dung không có dữ liệu xác nhận.
 * Chuẩn bị kiểm tra local bằng `hugo server` trước khi push GitHub.
@@ -32,7 +32,7 @@ pre: " <b> 1.12. </b> "
 
 * **Hoàn thiện cấu trúc báo cáo học tập dạng workshop website:** Tổ chức báo cáo theo dạng static workshop site.
 * **Nắm cách tổ chức nội dung Hugo theo section và page:** Hiểu cách `_index.md`, `_index.vi.md`, section folder và page folder liên kết với nhau.
-* **Biết quản lý ảnh đúng chuẩn:** Biết đặt ảnh nguồn trong `static/images/` và không chỉnh trực tiếp `public/`.
+* **Biết quản lý ảnh đúng chuẩn:** Biết đặt ảnh nguồn trong `static/fcaj-learning-workshop/images/` và không chỉnh trực tiếp `public/`.
 * **Hoàn thiện nội dung kỹ thuật CV Matching Flow:** Hoàn thiện các trang workshop kỹ thuật chính.
 * **Có bản worklog 12 tuần dựa trên dữ liệu đã xác nhận:** Tổ chức lại nội dung worklog theo các chủ đề đã duyệt.
 * **Chuẩn bị repo cá nhân để push GitHub và nộp bài:** Rà soát site trước khi nộp.

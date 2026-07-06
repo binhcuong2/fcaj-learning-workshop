@@ -1,4 +1,4 @@
----
+﻿---
 title: "Internship Report"
 date: 2024-01-01
 weight: 1
@@ -31,7 +31,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
 
-![Your profile picture](/images/avatar.png)
+![Your profile picture](/fcaj-learning-workshop/images/avatar.png)
 
 ### Report Content
 

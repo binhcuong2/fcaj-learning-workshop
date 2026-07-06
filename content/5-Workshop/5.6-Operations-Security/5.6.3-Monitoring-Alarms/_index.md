@@ -1,4 +1,4 @@
----
+﻿---
 title : "Monitoring & Alarms"
 date: 2026-07-03
 weight : 3
@@ -45,7 +45,7 @@ This means every `console.log()`, `console.error()`, and runtime error in your L
 
 1. Navigate to **AWS Console → CloudWatch → Log groups**
 
-![Log Groups](/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/log-groups.png)
+![Log Groups](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/log-groups.png)
 
 2. Each Lambda function has its own log group named `/aws/lambda/<function-name>`:
 
@@ -58,11 +58,11 @@ This means every `console.log()`, `console.error()`, and runtime error in your L
 
 3. Click on a log group, then click on a **log stream** to see individual invocation logs
 
-![Log Stream](/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/log-stream.png)
+![Log Stream](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/log-stream.png)
 
 4. Each log entry shows structured JSON with timestamp, request ID, and log level
 
-![Log Entry](/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/log-entry.png)
+![Log Entry](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/log-entry.png)
 
 #### Query Logs with CloudWatch Logs Insights
 
@@ -80,7 +80,7 @@ fields @timestamp, @message
 | limit 20
 ```
 
-![Logs Insights](/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/logs-insights.png)
+![Logs Insights](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/logs-insights.png)
 
 ```bash
 # Find Lambda cold starts and their duration
@@ -110,7 +110,7 @@ Navigate to **CloudWatch → Metrics → Lambda**:
 | `Throttles` | Number of invocations that are throttled | > 0 |
 | `ConcurrentExecutions` | Number of function instances running | > 80% of account limit |
 
-![Lambda Metrics](/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/lambda-metrics.png)
+![Lambda Metrics](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/lambda-metrics.png)
 
 #### SQS Dead Letter Queue Metrics
 
@@ -140,7 +140,7 @@ Alarms automatically notify you when metrics cross defined thresholds.
 3. Choose **Lambda → By Function Name → Errors**
 4. Select the function (e.g., `jobs-matching-evaluate-match-dev`)
 
-![Select Metric](/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/select-metric.png)
+![Select Metric](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/select-metric.png)
 
 5. Configure the alarm:
 
@@ -152,17 +152,17 @@ Alarms automatically notify you when metrics cross defined thresholds.
 | **Condition** | Greater than 0 |
 | **Datapoints to alarm** | 1 out of 1 |
 
-![Alarm Config](/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/alarm-config.png)
+![Alarm Config](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/alarm-config.png)
 
 6. Configure actions — Create or select an **SNS topic** to send email notifications:
 
-![SNS Config](/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/sns-config.png)
+![SNS Config](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/sns-config.png)
 
 7. Name the alarm: `jobs-matching-evaluate-match-errors`
 
 8. Click **Create alarm**
 
-![Alarm Created](/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/alarm-created.png)
+![Alarm Created](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/alarm-created.png)
 
 #### Alarm 2: SQS Dead Letter Queue Alarm
 
@@ -201,7 +201,7 @@ A dashboard provides a centralized view of all key metrics:
 - **API Gateway Request Count** (Line graph)
 - **API Gateway Latency p99** (Line graph)
 
-![Dashboard](/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/dashboard.png)
+![Dashboard](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.3-Monitoring-Alarms/dashboard.png)
 
 ### Verify with AWS CLI
 

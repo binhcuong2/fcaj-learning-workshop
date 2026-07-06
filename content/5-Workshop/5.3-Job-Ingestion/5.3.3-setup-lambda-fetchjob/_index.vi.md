@@ -1,4 +1,4 @@
----
+﻿---
 title : "Xây dựng Fetch Jobs Lambda"
 date: 2026-07-03 
 weight : 3
@@ -229,8 +229,8 @@ sam validate
 sam deploy
 ```
 Deploy schedule event & lambda thành công:
-![Deploy schedule event](/images/5-Workshop/5.3-Job-ingestion/5.3.3-setup-lambda-fetchjob/deploy-schedule-event.png)
-![Deploy lambda](/images/5-Workshop/5.3-Job-ingestion/5.3.3-setup-lambda-fetchjob/deploy-fetchjob.png)
+![Deploy schedule event](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.3-setup-lambda-fetchjob/deploy-schedule-event.png)
+![Deploy lambda](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.3-setup-lambda-fetchjob/deploy-fetchjob.png)
 
 ---
 
@@ -242,4 +242,4 @@ Thực hiện kiểm tra:
 * Gọi được SerpAPI.
 * Message được gửi tới SQS.
 
-![Kiểm tra Fetch Jobs](/images/5-Workshop/5.3-Job-ingestion/5.3.3-setup-lambda-fetchjob/test-fetchjob.png)
+![Kiểm tra Fetch Jobs](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.3-setup-lambda-fetchjob/test-fetchjob.png)

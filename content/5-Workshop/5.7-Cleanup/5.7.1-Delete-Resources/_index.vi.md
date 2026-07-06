@@ -1,4 +1,4 @@
-   ---
+﻿   ---
 title : "Xóa Tài nguyên"
 date: 2026-07-03
 weight : 1
@@ -127,7 +127,7 @@ S3 buckets phải được **làm rỗng trước khi xóa**. CloudFormation/SAM
 3. Click **Empty**
 4. Nhập **permanently delete** để xác nhận
 
-![Làm rỗng S3](/images/5-Workshop/5.7-Cleanup/5.7.1-Delete-Resources/empty-s3.png)
+![Làm rỗng S3](/fcaj-learning-workshop/images/5-Workshop/5.7-Cleanup/5.7.1-Delete-Resources/empty-s3.png)
 
 #### Cách B: Làm rỗng qua AWS CLI
 
@@ -167,7 +167,7 @@ cd backend
 sam delete --stack-name jobs-matching --no-prompts
 ```
 
-![SAM Delete](/images/5-Workshop/5.7-Cleanup/5.7.1-Delete-Resources/sam-delete.png)
+![SAM Delete](/fcaj-learning-workshop/images/5-Workshop/5.7-Cleanup/5.7.1-Delete-Resources/sam-delete.png)
 
 Lệnh sẽ:
 1. Xóa CloudFormation stack và tất cả tài nguyên của nó

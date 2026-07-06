@@ -88,7 +88,7 @@ After attending the event, I summarized the topics that were relevant to my AWS 
 
 ## Proof of Participation
 
-![Photo from FCAJ Community Day June](/images/4-EventParticipated/event3.jpg)
+![Photo from FCAJ Community Day June](/fcaj-learning-workshop/images/4-EventParticipated/event3.jpg)
 
 ## Summary
 

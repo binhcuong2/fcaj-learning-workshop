@@ -1,4 +1,4 @@
----
+﻿---
 title : "Databases & Storage (DynamoDB & S3)"
 date: 2026-07-03
 weight : 3
@@ -66,7 +66,7 @@ Store structured information for favorited jobs (wishlist) in DynamoDB and store
   * `AllowedOrigins`: Allow any origin (`*`) or specific frontend domains.
   * `AllowedMethods`: Allow `GET` (for displaying PDF directly on the browser via Signed URL or Public Read URL).
 
-![S3 CV Bucket CORS Configuration](/images/5-Workshop/5.4-User-Interaction/dynamodb-saved-jobs_cors.png)
+![S3 CV Bucket CORS Configuration](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/dynamodb-saved-jobs_cors.png)
 * **S3 Bucket Policy:** Allow public read access to resources or restricted access via API Gateway.
 
 ---
@@ -88,7 +88,7 @@ Once deployed successfully, you can verify the DynamoDB table and S3 bucket conf
 * **Partition Key (PK):** `userId` (String `S`, extracted from Cognito Claim `sub`).
 * **Sort Key (SK):** `jobId` (String `S`, ID of the job post).
 
-![DynamoDB Saved Jobs Table](/images/5-Workshop/5.4-User-Interaction/dynamodb-saved-jobs.png)
+![DynamoDB Saved Jobs Table](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/dynamodb-saved-jobs.png)
 
 ### B. API Endpoints Overview
 * **Add Favorite (`POST /saved-jobs/{jobId}`):**
@@ -101,7 +101,7 @@ Once deployed successfully, you can verify the DynamoDB table and S3 bucket conf
   This endpoint retrieves the complete list of favorited jobs for the current authenticated user. The backend extracts the `userId` and runs a `Query` command matching the partition key `userId`. It returns an HTTP 200 OK status containing the items list.
 
 You can check the saved job records directly in the DynamoDB Console Items tab:
-![DynamoDB Saved Jobs Items](/images/5-Workshop/5.4-User-Interaction/dynamodb-saved-jobs_2.png)
+![DynamoDB Saved Jobs Items](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/dynamodb-saved-jobs_2.png)
 
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 title : "Cơ sở dữ liệu & Lưu trữ (DynamoDB & S3)"
 date: 2026-07-03
 weight : 3
@@ -66,7 +66,7 @@ Thực hiện lưu trữ thông tin có cấu trúc của các tin tuyển dụn
   * Cho phép nguồn gốc (`AllowedOrigins`): Bất kỳ nguồn nào (`*`) hoặc cụ thể domain frontend.
   * Cho phép phương thức (`AllowedMethods`): `GET` (để hiển thị trực tiếp PDF trên trình duyệt thông qua Signed URL hoặc Public Read URL).
 
-![Cấu hình S3 CORS cho CV Bucket](/images/5-Workshop/5.4-User-Interaction/dynamodb-saved-jobs_cors.png)
+![Cấu hình S3 CORS cho CV Bucket](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/dynamodb-saved-jobs_cors.png)
 * **S3 Bucket Policy:** Chỉ cho phép đọc public đối với tài nguyên hoặc truy xuất bảo mật qua API Gateway.
 
 ---
@@ -88,7 +88,7 @@ Sau khi triển khai thành công, bạn có thể kiểm tra cấu hình Dynamo
 * **Partition Key (PK):** `userId` (Kiểu String `S`, trích xuất từ Cognito Claim `sub`).
 * **Sort Key (SK):** `jobId` (Kiểu String `S`, ID của tin tuyển dụng).
 
-![Bảng DynamoDB Saved Jobs](/images/5-Workshop/5.4-User-Interaction/dynamodb-saved-jobs.png)
+![Bảng DynamoDB Saved Jobs](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/dynamodb-saved-jobs.png)
 
 ### B. Khái quát các API Endpoint
 * **Thêm Yêu thích (`POST /saved-jobs/{jobId}`):**
@@ -101,7 +101,7 @@ Sau khi triển khai thành công, bạn có thể kiểm tra cấu hình Dynamo
   Lấy toàn bộ tin tuyển dụng đã lưu của người dùng hiện tại. Backend lấy `userId` từ token và chạy lệnh truy vấn `Query` với khóa phân vùng PK = `userId`. Trả về HTTP 200 OK cùng danh sách các phần tử.
 
 Bạn có thể kiểm tra danh sách bản ghi lưu tin tuyển dụng của người dùng trong tab Items trên DynamoDB Console:
-![Danh sách bản ghi Saved Jobs](/images/5-Workshop/5.4-User-Interaction/dynamodb-saved-jobs_2.png)
+![Danh sách bản ghi Saved Jobs](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/dynamodb-saved-jobs_2.png)
 
 ---
 

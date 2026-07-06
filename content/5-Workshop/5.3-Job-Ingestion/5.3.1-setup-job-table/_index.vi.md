@@ -1,4 +1,4 @@
----
+﻿---
 title : "Tạo bảng DynamoDB Jobs"
 date: 2026-07-03 
 weight : 1
@@ -52,8 +52,8 @@ sam validate  # Validate template.yaml
 sam deploy --guided # Deploy
 ```
 Deploy thành công:
-![Deploy table successfuly](/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/deploy-cloudformation.png)
-![Deploy table successfuly](/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/deploy-table-success.png)
+![Deploy table successfuly](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/deploy-cloudformation.png)
+![Deploy table successfuly](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/deploy-table-success.png)
 
 ---
 
@@ -63,8 +63,8 @@ Kích hoạt TTL (Time To Live - cơ chế tự động xóa dữ liệu hết h
 
 Cấu hình trường TTL:
 
-![Cấu hình TTL](/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/turn-on-ttl.png)
-![Cấu hình TTL](/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/turn-on-ttl-2.png)
+![Cấu hình TTL](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/turn-on-ttl.png)
+![Cấu hình TTL](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/turn-on-ttl-2.png)
 
 
 ---
@@ -73,5 +73,5 @@ Cấu hình trường TTL:
 
 Kích hoạt PITR (Point-in-Time Recovery - khả năng khôi phục dữ liệu tại bất kỳ thời điểm nào trong 35 ngày gần nhất) nhằm tăng khả năng phục hồi khi xảy ra lỗi.
 
-![Cấu hình PITR](/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/pitr-config-1.png)
-![Cấu hình PITR](/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/pitr-config-2.png)
+![Cấu hình PITR](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/pitr-config-1.png)
+![Cấu hình PITR](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/pitr-config-2.png)

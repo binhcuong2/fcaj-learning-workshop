@@ -1,4 +1,4 @@
----
+﻿---
 title : "Jobs Ingestion Pipeline"
 date: 2026-07-03
 weight : 3
@@ -14,7 +14,7 @@ Xây dựng pipeline thu thập dữ liệu việc làm tự động từ Google
 
 #### Kiến trúc 
 
-![Kiến trúc](/images/5-Workshop/5.3-Job-ingestion/Job-ingestion.drawio.png)
+![Kiến trúc](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/Job-ingestion.drawio.png)
 
 ---
 

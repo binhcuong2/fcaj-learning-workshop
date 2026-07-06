@@ -73,7 +73,7 @@ After attending the event, I summarized the parts that were relevant to my AWS l
 
 ## Proof of Participation
 
-![Check-in at FCAJ Community Day](/images/4-EventParticipated/event1-1.jpg)
+![Check-in at FCAJ Community Day](/fcaj-learning-workshop/images/4-EventParticipated/event1-1.jpg)
 
 ## Summary
 

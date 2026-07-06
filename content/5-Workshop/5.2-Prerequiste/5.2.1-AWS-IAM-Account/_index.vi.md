@@ -1,4 +1,4 @@
----
+﻿---
 title : "Tài khoản AWS IAM"
 date: 2026-07-03 
 weight : 1
@@ -15,32 +15,32 @@ Trong phần này, chúng ta sẽ chuẩn bị các thông tin xác thực và p
 #### 1.1. Điều hướng đến User Groups:
 Tại IAM Console, chọn mục **User groups** ở thanh điều hướng bên trái, sau đó nhấn **Create group**.
 
-![Navigate to User Groups](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/User-group.png)
+![Navigate to User Groups](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/User-group.png)
 
 #### 1.2. Nhập thông tin group:
 Nhập tên group (ví dụ: `NOVA-team`).
 
-![Configure Group Name](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/group-name.png)
+![Configure Group Name](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/group-name.png)
 
 #### 1.3. Gán policy cho group (Attach policies):
 Tại phần **Attach permissions policies**, tìm kiếm quyền **AdministratorAccess**, chọn nó, sau đó nhấn **Next**.
 
-![Attach Policies to Group](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/admin-access.png)
+![Attach Policies to Group](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/admin-access.png)
 
 #### 1.4. Xác nhận tạo group thành công:
 Xác nhận group đã được tạo thành công.
 
-![Preview and Create Group](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/confirm-group.png)
+![Preview and Create Group](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/confirm-group.png)
 
 #### 1.5. Mở phần Permissions của group:
 Chọn nhóm vừa tạo (`NOVA-team`) và chuyển sang tab **Permissions**.
 
-![Add Inline Policy](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-inline-policy.png)
+![Add Inline Policy](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-inline-policy.png)
 
 #### 1.6. Thêm role:
 Nhấn vào nút **Add permissions** và chọn **Create inline policy**.
 
-![Add Inline Policy](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-inline-policy.png)
+![Add Inline Policy](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-inline-policy.png)
 
 #### 1.7. Nhập policy JSON:
 Chọn tab **JSON** và nhập nội dung policy dưới đây. Policy này có tác dụng chặn các hoạt động ngoài khu vực Singapore (`ap-southeast-1`) cũng như chặn quyền truy cập vào thông tin Billing và Cost Management:
@@ -88,11 +88,11 @@ Chọn tab **JSON** và nhập nội dung policy dưới đây. Policy này có 
 }
 ```
 
-![Edit Policy JSON](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/edit-inline-policy.png)
+![Edit Policy JSON](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/edit-inline-policy.png)
 
 #### 1.8. Xác nhận tạo inline policy thành công:
 
-![Create Policy Finish](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-policy-success.png)
+![Create Policy Finish](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-policy-success.png)
 
 ---
 
@@ -101,7 +101,7 @@ Chọn tab **JSON** và nhập nội dung policy dưới đây. Policy này có 
 #### 2.1. Điều hướng đến danh sách Users:
 Trong giao diện IAM Console, chọn mục **Users** ở thanh điều hướng bên trái, sau đó nhấn **Create user** (hoặc **Add users**).
 
-![Navigate to Users](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-user.png)
+![Navigate to Users](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-user.png)
 
 #### 2.2. Cấu hình chi tiết User:
 * Nhập tên người dùng (ví dụ: `NOVA-member`).
@@ -110,19 +110,19 @@ Trong giao diện IAM Console, chọn mục **Users** ở thanh điều hướng
 * Bỏ tích chọn **Users must create a new password at next sign-in (recommended)**.
 * Nhấn **Next**.
 
-![Configure User Details](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/user-info.png)
+![Configure User Details](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/user-info.png)
 
 #### 2.3. Phân quyền cho User:
 * Chọn tùy chọn **Add user to group** (Thêm người dùng vào nhóm).
 * Tích chọn nhóm đã tạo trước đó (ví dụ: `NOVA-team`).
 * Nhấn **Next**.
 
-![Set User Permissions](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/add-to-group.png)
+![Set User Permissions](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/add-to-group.png)
 
 #### 2.4. Xác nhận tạo User thành công:
 Xác nhận người dùng đã được tạo thành công và lưu lại thông tin đăng nhập.
 
-![Preview and Create User](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/confirm-user-creation.png)
+![Preview and Create User](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/confirm-user-creation.png)
 
 ---
 
@@ -133,23 +133,23 @@ Xác nhận người dùng đã được tạo thành công và lưu lại thôn
 #### 3.1. Tạo Access Key:
 Cuộn xuống phần **Access keys** (Khóa truy cập) và nhấn **Create access key**.
 
-![Security Credentials Tab](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-access-key.png)
+![Security Credentials Tab](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-access-key.png)
 
 #### 3.2. Chọn mục đích sử dụng (Use case):
 Chọn **Command Line Interface (CLI)** làm mục đích sử dụng, tích chọn hộp kiểm xác nhận đồng ý và nhấn **Next**.
 
-![Select CLI Use Case](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/config-key-info.png)
+![Select CLI Use Case](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/config-key-info.png)
 
 #### 3.3. Mô tả (Tùy chọn):
 Nhập thẻ mô tả (ví dụ: `NOVA-cli-key`) và nhấn **Create access key**.
 
-![Access Key Description](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-key-confirm.png)
+![Access Key Description](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-key-confirm.png)
 
 #### 3.4. Lưu thông tin Credentials:
 * Sao chép **Access key ID** và **Secret access key** hoặc nhấn **Download .csv file** để lưu trữ anêu toàn.
 * Nhấn **Done** để hoàn tất.
 
-![Retrieve Access Key](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/download-key.png)
+![Retrieve Access Key](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/download-key.png)
 
 {{% notice warning %}}
 ⚠️ **Lưu ý:** Hãy bảo mật tuyệt đối Access key ID và Secret access key. Tuyệt đối không chia sẻ hoặc đẩy các thông tin này lên các hệ thống quản lý mã nguồn công khai (GitHub/GitLab).

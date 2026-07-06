@@ -1,4 +1,4 @@
----
+﻿---
 title : "API Gateway & WAF Configuration"
 date: 2026-07-03
 weight : 1
@@ -76,14 +76,14 @@ Once deployed successfully, you can verify the API Gateway routes, authorizers, 
   * `AllowHeaders`: Restricts headers to `Content-Type`, `Authorization`, and `x-original-filename`.
   * `AllowMethods`: Accepts only safe HTTP methods: `GET`, `POST`, `DELETE`, and `OPTIONS`.
 
-![API Gateway Routes List](/images/5-Workshop/5.4-User-Interaction/api-gateway-routes-1.png)
-![API Gateway Routes Details](/images/5-Workshop/5.4-User-Interaction/api-gateway-routes-2.png)
+![API Gateway Routes List](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/api-gateway-routes-1.png)
+![API Gateway Routes Details](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/api-gateway-routes-2.png)
 * **Cognito Authorizer JWT Config:**
   * `IdentitySource`: `$request.header.Authorization`
   * `Issuer`: `https://cognito-idp.<region>.amazonaws.com/<UserPoolId>`
   * `Audience`: The authorized App Client ID.
 
-![API Gateway JWT Authorizer Configuration](/images/5-Workshop/5.4-User-Interaction/api-gateway-jwt-authorizer.png)
+![API Gateway JWT Authorizer Configuration](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/api-gateway-jwt-authorizer.png)
 * **AWS WAF Rules:**
   * AWS Managed Rule Groups: `AWSManagedRulesCommonRuleSet` (protects against common OWASP vulnerabilities) and `AWSManagedRulesSQLiRuleSet`.
   * Rate-limit Rule: Restricts traffic to a maximum of 100 requests per IP address per 5 minutes.

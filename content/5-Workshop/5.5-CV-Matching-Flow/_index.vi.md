@@ -1,4 +1,4 @@
----
+﻿---
 title : "Luồng đánh giá CV"
 date : 2026-07-03
 weight : 5
@@ -26,7 +26,7 @@ User action trên frontend
   -> Lưu kết quả vào DynamoDB Match Results table
 ```
 
-![CV Matching Flow Architecture](/images/5-workshop/5.5-cv-matching-flow/5-cv-matching-architecture.png)
+![CV Matching Flow Architecture](/fcaj-learning-workshop/images/5-workshop/5.5-cv-matching-flow/5-cv-matching-architecture.png)
 
 ## Thông tin implementation
 

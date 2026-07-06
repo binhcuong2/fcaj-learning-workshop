@@ -1,4 +1,4 @@
----
+﻿---
 title : "User Authentication Setup with Cognito"
 date: 2026-07-03
 weight : 2
@@ -106,7 +106,7 @@ This module handles user account lifecycle management (Registration, OTP verific
   * Login Callback: `http://localhost:3000/auth/callback` (or production Amplify domain).
   * Logout Callback: `http://localhost:3000/login`.
 
-![Cognito Managed Login](/images/5-Workshop/5.4-User-Interaction/cognito-managed-login.png)
+![Cognito Managed Login](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/cognito-managed-login.png)
 
 ---
 
@@ -120,10 +120,10 @@ This module handles user account lifecycle management (Registration, OTP verific
 3. Once the stack is deployed, record the `CognitoUserPoolId` and `CognitoUserPoolClientId` output values to configure `.env.local` for the Frontend.
 
 Verify the created Cognito User Pool in the AWS Console:
-![Cognito User Pool](/images/5-Workshop/5.4-User-Interaction/cognito-user-pool.png)
+![Cognito User Pool](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/cognito-user-pool.png)
 
 Verify the App Client Settings:
-![Cognito App Client](/images/5-Workshop/5.4-User-Interaction/cognito-app-client.png)
+![Cognito App Client](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/cognito-app-client.png)
 
 ---
 
@@ -204,4 +204,4 @@ Verify the App Client Settings:
   *(The payload contains the `sub` claim corresponding to the unique user ID).*
 
 You can view the list of registered users in the Cognito Console:
-![Cognito Users](/images/5-Workshop/5.4-User-Interaction/cognito-users.png)
+![Cognito Users](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/cognito-users.png)

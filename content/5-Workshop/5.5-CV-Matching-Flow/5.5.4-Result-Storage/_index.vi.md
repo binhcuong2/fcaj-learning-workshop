@@ -116,7 +116,7 @@ Match results có thể được lấy lại qua các API route được hỗ tr
 - `evaluatedAt`: thời điểm tạo kết quả đánh giá.
 - `expiresAt`: TTL timestamp tùy chọn để tự động cleanup nếu được bật.
 
-![Match Result Item](/images/5-Workshop/5.5-CV-Matching-Flow/5-4-dynamodb-match-result-item.png)
+![Match Result Item](/fcaj-learning-workshop/images/5-Workshop/5.5-CV-Matching-Flow/5-4-dynamodb-match-result-item.png)
 
 ## Lỗi phổ biến
 

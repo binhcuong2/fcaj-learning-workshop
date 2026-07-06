@@ -1,4 +1,4 @@
----
+﻿---
 title : "Frontend Application Deployment (Frontend Hosting Amplify)"
 date: 2026-07-03
 weight : 5
@@ -31,13 +31,13 @@ Deploy and distribute the Next.js user interface application using **AWS Amplify
    * Navigate to **Hosting** -> **Environment variables**.
    * Add the required environment variables (described in the configuration section below) with their respective backend outputs obtained after SAM deployment.
 
-![Amplify Environment Variables](/images/5-Workshop/5.4-User-Interaction/amplify-environment-variables.png)
+![Amplify Environment Variables](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/amplify-environment-variables.png)
 
 3. **Enable Continuous Deployment:**
    * Click **Save and deploy**.
    * Every time a new commit is pushed to the chosen Git branch, AWS Amplify will automatically trigger the build and deployment pipeline for the frontend without downtime.
 
-![Amplify Deployment Status](/images/5-Workshop/5.4-User-Interaction/amplify-deploy-success.png)
+![Amplify Deployment Status](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/amplify-deploy-success.png)
 
 ---
 

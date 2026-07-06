@@ -80,7 +80,7 @@ Dùng cấu trúc này khi test `EvaluateMatchFunction` trong Lambda Console. Cl
 - `/cv/extract` tiếp tục bước trích xuất văn bản.
 - `/cv/evaluate` tiếp tục bước đánh giá CV với job.
 
-![API Gateway Route](/images/5-workshop/5.5-cv-matching-flow/5-1-api-gateway-cv-evaluate-route.png)
+![API Gateway Route](/fcaj-learning-workshop/images/5-workshop/5.5-cv-matching-flow/5-1-api-gateway-cv-evaluate-route.png)
 
 ## Lỗi phổ biến
 

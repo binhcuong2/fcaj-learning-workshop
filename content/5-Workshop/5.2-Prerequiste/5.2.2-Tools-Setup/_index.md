@@ -1,4 +1,4 @@
----
+﻿---
 title : "Tools Setup"
 date: 2026-07-03 
 weight : 2
@@ -25,7 +25,7 @@ Verify that the AWS CLI was successfully installed by running:
 ```bash
 aws --version
 ```
-![aws version](/images/5-Workshop/5.2-Prerequisite/5.2.2-Tools-Setup/aws-version.png)
+![aws version](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.2-Tools-Setup/aws-version.png)
 ---
 
 ### 2. Install AWS SAM CLI
@@ -39,7 +39,7 @@ Verify that the SAM CLI was successfully installed by running:
 ```bash
 sam --version
 ```
-![sam version](/images/5-Workshop/5.2-Prerequisite/5.2.2-Tools-Setup/sam-version.png)
+![sam version](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.2-Tools-Setup/sam-version.png)
 ---
 
 ### 3. Configure AWS Profile
@@ -73,7 +73,7 @@ sam init
 
 Follow the on-screen prompts to select your template and preferences.
 
-![sam init](/images/5-Workshop/5.2-Prerequisite/5.2.2-Tools-Setup/sam-init.png)
+![sam init](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.2-Tools-Setup/sam-init.png)
 ---
 
 ### 5. Install IDE (Visual Studio Code)

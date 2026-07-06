@@ -1,4 +1,4 @@
----
+﻿---
 title : "Thiết lập Amazon SQS"
 date: 2026-07-03 
 weight : 2
@@ -39,4 +39,4 @@ sam deploy
 ```
 
 Deploy thành công:
-![SQS Deploy successfully](/images/5-Workshop/5.3-Job-ingestion/5.3.2-setup-sqs/deploy-sqs.png)
+![SQS Deploy successfully](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.2-setup-sqs/deploy-sqs.png)

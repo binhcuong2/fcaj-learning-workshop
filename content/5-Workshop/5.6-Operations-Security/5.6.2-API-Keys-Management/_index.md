@@ -1,4 +1,4 @@
----
+﻿---
 title : "API Keys Management"
 date: 2026-07-03
 weight : 2
@@ -31,7 +31,7 @@ The flow works as follows:
 1. Navigate to **AWS Console → Systems Manager → Parameter Store**
 2. Click **Create parameter**
 
-![Create Parameter](/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/create-parameter.png)
+![Create Parameter](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/create-parameter.png)
 
 3. Configure the parameter:
 
@@ -63,11 +63,11 @@ Repeat the same process for the Gemini API key:
 | **Type** | SecureString |
 | **Value** | `<your-gemini-api-key>` |
 
-![Gemini Parameter Config](/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/gemini-param-config.png)
+![Gemini Parameter Config](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/gemini-param-config.png)
 
 After creating both parameters, you should see them listed:
 
-![Parameter List](/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/parameter-list.png)
+![Parameter List](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/parameter-list.png)
 
 ### Step 2: Reference Parameters in SAM Template
 
@@ -160,7 +160,7 @@ aws ssm get-parameters-by-path \
   --output table
 ```
 
-![CLI Parameter List](/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/cli-param-list.png)
+![CLI Parameter List](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/cli-param-list.png)
 
 ```bash
 # Retrieve a specific parameter (decrypted)

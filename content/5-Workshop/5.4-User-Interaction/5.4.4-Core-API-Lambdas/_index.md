@@ -1,4 +1,4 @@
----
+﻿---
 title : "Core Business APIs (Core API Lambdas)"
 date: 2026-07-03
 weight : 4
@@ -225,7 +225,7 @@ sam deploy
 
 Once deployed successfully, you can verify the Lambda functions list in the AWS Console:
 
-![Lambda Functions](/images/5-Workshop/5.4-User-Interaction/lambdas_funtion.png)
+![Lambda Functions](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/lambdas_funtion.png)
 
 * **Runtime:** Node.js 24.x (`nodejs24.x`).
 * **Compiler:** `esbuild` configured to minify code and generate sourcemaps for error monitoring.

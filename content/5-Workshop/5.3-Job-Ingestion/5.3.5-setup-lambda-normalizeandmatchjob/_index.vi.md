@@ -1,4 +1,4 @@
----
+﻿---
 title : "Xây dựng Normalize Lambda"
 date: 2026-07-03 
 weight : 5
@@ -318,7 +318,7 @@ sam deploy
 
 Deploy thành công:
 
-![Deploy normalize and match job](/images/5-Workshop/5.3-Job-ingestion/5.3.5-setup-lambda-normalizeandmatchjob/deploy-normalizeandmatchjob.png)
+![Deploy normalize and match job](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.5-setup-lambda-normalizeandmatchjob/deploy-normalizeandmatchjob.png)
 
 ---
 
@@ -326,4 +326,4 @@ Deploy thành công:
 
 Thực hiện lại bước kiểm thử của hàm fetchjobs; hàm processjob và normalizeandmatch được kích hoạt tự động khi có dữ liệu được đưa vào queue trong SQS.
 
-![DynamoDB Items](/images/5-Workshop/5.3-Job-ingestion/5.3.5-setup-lambda-normalizeandmatchjob/dynamodb-items.png)
+![DynamoDB Items](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.5-setup-lambda-normalizeandmatchjob/dynamodb-items.png)

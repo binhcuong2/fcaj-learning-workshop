@@ -1,4 +1,4 @@
----
+﻿---
 title : "Build Fetch Jobs Lambda"
 date: 2026-07-03 
 weight : 3
@@ -229,8 +229,8 @@ sam validate
 sam deploy
 ```
 Deploy schedule event & lambda successfully:
-![Deploy schedule event](/images/5-Workshop/5.3-Job-ingestion/5.3.3-setup-lambda-fetchjob/deploy-schedule-event.png)
-![Deploy lambda](/images/5-Workshop/5.3-Job-ingestion/5.3.3-setup-lambda-fetchjob/deploy-fetchjob.png)
+![Deploy schedule event](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.3-setup-lambda-fetchjob/deploy-schedule-event.png)
+![Deploy lambda](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.3-setup-lambda-fetchjob/deploy-fetchjob.png)
 
 ---
 
@@ -242,4 +242,4 @@ Perform verification:
 * SerpAPI is called successfully.
 * Messages are successfully sent to SQS.
 
-![Fetch Jobs Test](/images/5-Workshop/5.3-Job-ingestion/5.3.3-setup-lambda-fetchjob/test-fetchjob.png)
+![Fetch Jobs Test](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.3-setup-lambda-fetchjob/test-fetchjob.png)

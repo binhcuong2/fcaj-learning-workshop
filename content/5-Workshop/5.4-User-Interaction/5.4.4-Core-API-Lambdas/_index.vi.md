@@ -1,4 +1,4 @@
----
+﻿---
 title : "Các API nghiệp vụ chính (Core API Lambdas)"
 date: 2026-07-03
 weight : 4
@@ -225,7 +225,7 @@ sam deploy
 
 Sau khi triển khai thành công, bạn có thể kiểm tra danh sách các Lambda Function trên AWS Console:
 
-![Lambda Functions](/images/5-Workshop/5.4-User-Interaction/lambdas_funtion.png)
+![Lambda Functions](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/lambdas_funtion.png)
 
 * **Runtime:** Node.js 24.x (`nodejs24.x`).
 * **Trình biên dịch:** `esbuild` cấu hình thu gọn (minify) code, tạo sourcemap để hỗ trợ giám sát lỗi.

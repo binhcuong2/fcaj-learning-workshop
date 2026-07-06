@@ -1,4 +1,4 @@
----
+﻿---
 title : "Cài đặt Công cụ"
 date: 2026-07-03 
 weight : 2
@@ -25,7 +25,7 @@ Kiểm tra xem AWS CLI đã được cài đặt thành công chưa bằng cách
 ```bash
 aws --version
 ```
-![aws version](/images/5-Workshop/5.2-Prerequisite/5.2.2-Tools-Setup/aws-version.png)
+![aws version](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.2-Tools-Setup/aws-version.png)
 ---
 
 ### 2. Cài đặt AWS SAM CLI
@@ -39,7 +39,7 @@ Kiểm tra xem SAM CLI đã được cài đặt thành công chưa bằng cách
 ```bash
 sam --version
 ```
-![sam version](/images/5-Workshop/5.2-Prerequisite/5.2.2-Tools-Setup/sam-version.png)
+![sam version](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.2-Tools-Setup/sam-version.png)
 ---
 
 ### 3. Cấu hình AWS Profile
@@ -73,7 +73,7 @@ sam init
 
 Làm theo các hướng dẫn trên màn hình để chọn mẫu (template) và các tùy chọn tương ứng.
 
-![sam init](/images/5-Workshop/5.2-Prerequisite/5.2.2-Tools-Setup/sam-init.png)
+![sam init](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.2-Tools-Setup/sam-init.png)
 ---
 
 ### 5. Cài đặt IDE (Visual Studio Code)

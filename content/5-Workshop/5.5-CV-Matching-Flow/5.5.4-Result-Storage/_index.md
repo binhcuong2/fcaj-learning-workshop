@@ -116,7 +116,7 @@ Match results can be retrieved through supported API routes such as `GET /cv/mat
 - `evaluatedAt`: timestamp when the evaluation was created.
 - `expiresAt`: optional TTL timestamp for automatic cleanup if enabled.
 
-![Match Result Item](/images/5-Workshop/5.5-CV-Matching-Flow/5-4-dynamodb-match-result-item.png)
+![Match Result Item](/fcaj-learning-workshop/images/5-Workshop/5.5-CV-Matching-Flow/5-4-dynamodb-match-result-item.png)
 
 ## Common mistakes
 

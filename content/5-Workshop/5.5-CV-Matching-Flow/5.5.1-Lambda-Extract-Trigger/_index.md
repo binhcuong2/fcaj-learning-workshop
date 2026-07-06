@@ -81,7 +81,7 @@ Use this shape when testing `EvaluateMatchFunction` from the Lambda Console. The
 - `/cv/extract` continues with text extraction.
 - `/cv/evaluate` continues with CV-to-job evaluation.
 
-![API Gateway Route](/images/5-workshop/5.5-CV-Matching-Flow/5-1-api-gateway-cv-evaluate-route.png)
+![API Gateway Route](/fcaj-learning-workshop/images/5-workshop/5.5-CV-Matching-Flow/5-1-api-gateway-cv-evaluate-route.png)
 
 ## Common mistakes
 

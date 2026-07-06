@@ -1,4 +1,4 @@
----
+﻿---
 title : "AWS IAM Account"
 date: 2026-07-03 
 weight : 1
@@ -15,33 +15,33 @@ In this section, we will prepare the necessary AWS credentials and permissions b
 #### 1.1. Navigate to User Groups:
 In the IAM Console, select **User groups** in the left navigation pane, then click **Create group**.
 
-![Navigate to User Groups](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/User-group.png)
+![Navigate to User Groups](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/User-group.png)
 
 #### 1.2. Configure Group Details:
 Enter a group name (e.g., `NOVA-team`).
 
-![Configure Group Name](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/group-name.png)
+![Configure Group Name](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/group-name.png)
 
 #### 1.3. Attach Policies:
 Under **Attach permissions policies**, search for **AdministratorAccess**, select it, and click **Next**.
 
-![Attach Policies to Group](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/admin-access.png)
+![Attach Policies to Group](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/admin-access.png)
 
 
 #### 1.4. Confirm Group Creation:
 Verify that the group has been successfully created.
 
-![Preview and Create Group](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/confirm-group.png)
+![Preview and Create Group](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/confirm-group.png)
 
 #### 1.5. Open Group Permissions:
 Select the newly created group (`NOVA-team`) and navigate to the **Permissions** tab.
 
-![Open Group Permissions](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-inline-policy.png)
+![Open Group Permissions](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-inline-policy.png)
 
 #### 1.6. Add Permission:
 Click **Add permissions** and select **Create inline policy**.
 
-![Add Inline Policy](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-inline-policy.png)
+![Add Inline Policy](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-inline-policy.png)
 
 #### 1.7. Edit Policy in JSON:
 Choose **JSON** tab and enter the following policy. This policy restricts actions to the Singapore region (`ap-southeast-1`) and denies billing/cost management access:
@@ -89,11 +89,11 @@ Choose **JSON** tab and enter the following policy. This policy restricts action
 }
 ```
 
-![Edit Policy JSON](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/edit-inline-policy.png)
+![Edit Policy JSON](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/edit-inline-policy.png)
 
 #### 1.8. Confirm inline policy creation:
 
-![Create Policy Finish](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-policy-success.png)
+![Create Policy Finish](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-policy-success.png)
 
 ---
 
@@ -102,7 +102,7 @@ Choose **JSON** tab and enter the following policy. This policy restricts action
 #### 2.1. Navigate to Users:
 In the IAM Console, select **Users** in the left navigation pane, then click **Create user** (or **Add users**).
 
-![Navigate to Users](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-user.png)
+![Navigate to Users](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-user.png)
 
 #### 2.2. Configure User Details:
 * Enter a username (e.g., `NOVA-member`).
@@ -111,19 +111,19 @@ In the IAM Console, select **Users** in the left navigation pane, then click **C
 * Uncheck **Users must create a new password at next sign-in (recommended)**.
 * Click **Next**.
 
-![Configure User Details](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/user-info.png)
+![Configure User Details](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/user-info.png)
 
 #### 2.3. Set Permissions:
 * Choose **Add user to group**.
 * Select the existing group you created (e.g., `NOVA-team`).
 * Click **Next**.
 
-![Set User Permissions](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/add-to-group.png)
+![Set User Permissions](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/add-to-group.png)
 
 #### 2.4. Confirm User Creation:
 Verify that the user has been successfully created and save the credentials.
 
-![Preview and Create User](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/confirm-user-creation.png)
+![Preview and Create User](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/confirm-user-creation.png)
 
 ---
 
@@ -134,23 +134,23 @@ To configure the AWS CLI, you need to create an Access Key for the newly created
 #### 3.1. Create Access Key:
 Scroll down to the **Access keys** section and click **Create access key**.
 
-![Security Credentials Tab](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-access-key.png)
+![Security Credentials Tab](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-access-key.png)
 
 #### 3.2. Select Use Case:
 Choose **Command Line Interface (CLI)** as the use case, check the confirmation/agreement box, and click **Next**.
 
-![Select CLI Use Case](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/config-key-info.png)
+![Select CLI Use Case](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/config-key-info.png)
 
 #### 3.3. Set Description Tag (Optional):
 Enter a descriptive tag value (e.g., `NOVA-cli-key`) and click **Create access key**.
 
-![Access Key Description](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-key-confirm.png)
+![Access Key Description](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/create-key-confirm.png)
 
 #### 3.4. Retrieve Credentials:
 * Copy the **Access key ID** and **Secret access key** or click **Download .csv file** to keep a secure copy.
 * Click **Done** to finish.
 
-![Retrieve Access Key](/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/download-key.png)
+![Retrieve Access Key](/fcaj-learning-workshop/images/5-Workshop/5.2-Prerequisite/5.2.1-AWS-IAM-Account/download-key.png)
 
 {{% notice warning %}}
 ⚠️ **Note:** Keep your Access key and Secret access key secure. Do not share them or commit them to public version control systems.

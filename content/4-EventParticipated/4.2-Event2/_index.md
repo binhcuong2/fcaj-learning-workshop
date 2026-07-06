@@ -85,7 +85,7 @@ After the event, I summarized the topics that were relevant to my AWS learning p
 
 ## Proof of Participation
 
-![Photo from Meetup 06/06/2026](/images/4-EventParticipated/event2.jpg)
+![Photo from Meetup 06/06/2026](/fcaj-learning-workshop/images/4-EventParticipated/event2.jpg)
 
 ## Summary
 

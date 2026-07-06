@@ -1,4 +1,4 @@
----
+﻿---
 title : "Build Normalize Lambda"
 date: 2026-07-03 
 weight : 5
@@ -321,7 +321,7 @@ sam deploy
 
 Deploy successfully:
 
-![Deploy normalize and match job](/images/5-Workshop/5.3-Job-ingestion/5.3.5-setup-lambda-normalizeandmatchjob/deploy-normalizeandmatchjob.png)
+![Deploy normalize and match job](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.5-setup-lambda-normalizeandmatchjob/deploy-normalizeandmatchjob.png)
 
 ---
 
@@ -329,4 +329,4 @@ Deploy successfully:
 
 Re-execute the verification steps for the fetch jobs function; the process jobs and normalize-and-match functions are triggered automatically when data is pushed into the SQS queue.
 
-![DynamoDB Items](/images/5-Workshop/5.3-Job-ingestion/5.3.5-setup-lambda-normalizeandmatchjob/dynamodb-items.png)
+![DynamoDB Items](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.5-setup-lambda-normalizeandmatchjob/dynamodb-items.png)

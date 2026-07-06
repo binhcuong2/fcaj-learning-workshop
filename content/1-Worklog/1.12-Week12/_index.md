@@ -12,7 +12,7 @@ pre: " <b> 1.12. </b> "
 * Review the main sections: Worklog, Proposal, Blogs Posted, Events Participated, Workshop, Self Evaluation, and Feedback.
 * Review Hugo template structure, sidebar, front matter, and `_index.md` / `_index.vi.md` files.
 * Complete the technical workshop content for the CV Matching Flow.
-* Verify image placement in Hugo by storing source images in `static/images/` and avoiding direct edits in `public/`.
+* Verify image placement in Hugo by storing source images in `static/fcaj-learning-workshop/images/` and avoiding direct edits in `public/`.
 * Distinguish group content from individual content.
 * Summarize 12 weeks of data to write an accurate worklog and avoid unsupported claims.
 * Prepare local verification with `hugo server` before pushing to GitHub.
@@ -32,7 +32,7 @@ pre: " <b> 1.12. </b> "
 
 * **Completed workshop-style learning report structure:** Organized the report as a static workshop website.
 * **Understood Hugo section and page organization:** Learned how `_index.md`, `_index.vi.md`, section folders, and page folders work together.
-* **Managed images correctly:** Learned to store source images under `static/images/` and avoid editing `public/` directly.
+* **Managed images correctly:** Learned to store source images under `static/fcaj-learning-workshop/images/` and avoid editing `public/` directly.
 * **Completed CV Matching Flow technical content:** Finalized the key technical workshop pages.
 * **Built a confirmed 12-week worklog:** Organized the worklog based on available evidence and confirmed topics.
 * **Prepared the personal repository for submission:** Reviewed the site before pushing to GitHub.

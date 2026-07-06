@@ -1,4 +1,4 @@
----
+﻿---
 title : "IAM Policies"
 date: 2026-07-03
 weight : 1
@@ -141,15 +141,15 @@ Policies:
 
 2. Search for your Lambda function role (e.g., search `jobs-matching-backend` to see all roles in the stack)
 
-![IAM Roles Search](/images/5-Workshop/5.6-Operations-Security/5.6.1-IAM-Policies/iam-roles-search.png)
+![IAM Roles Search](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.1-IAM-Policies/iam-roles-search.png)
 
 3. Click on the role to inspect the attached policies
 
-![IAM Role Detail](/images/5-Workshop/5.6-Operations-Security/5.6.1-IAM-Policies/iam-role-detail.png)
+![IAM Role Detail](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.1-IAM-Policies/iam-role-detail.png)
 
 4. Expand each policy to verify the specific permissions and resources
 
-![IAM Policy Detail](/images/5-Workshop/5.6-Operations-Security/5.6.1-IAM-Policies/iam-policy-detail.png)
+![IAM Policy Detail](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.1-IAM-Policies/iam-policy-detail.png)
 
 {{% notice tip %}}
 You can also use the AWS CLI to inspect IAM policies attached to a Lambda execution role:

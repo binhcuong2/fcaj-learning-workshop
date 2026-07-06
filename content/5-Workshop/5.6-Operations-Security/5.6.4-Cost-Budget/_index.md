@@ -1,4 +1,4 @@
----
+﻿---
 title : "Cost & Budget"
 date: 2026-07-03
 weight : 4
@@ -37,13 +37,13 @@ Most services in this project fall within the **AWS Free Tier** for development 
 
 1. Navigate to **AWS Console → Billing and Cost Management → Budgets**
 
-![Budgets Console](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-console.png)
+![Budgets Console](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-console.png)
 
 2. Click **Create budget**
 
 3. Select **Customize (advanced)**
 
-![Budget Type](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-type.png)
+![Budget Type](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-type.png)
 
 4. Choose **Cost budget - Recommended**
 
@@ -58,7 +58,7 @@ Most services in this project fall within the **AWS Free Tier** for development 
 | **Budgeting method** | Fixed |
 | **Budget amount** | $10.00 (adjust based on your needs) |
 
-![Budget Config](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-config.png)
+![Budget Config](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-config.png)
 
 {{% notice tip %}}
 For a workshop/development environment, **$10/month** is a reasonable starting budget. For production, adjust based on expected traffic volume and service usage patterns.
@@ -71,7 +71,7 @@ You can filter by:
 - **Tag**: Use tags to track costs for this specific project
 - **Region**: Filter to `ap-southeast-1` only
 
-![Budget Filters](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-filter.png)
+![Budget Filters](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-filter.png)
 
 ### Step 2: Configure Alert Thresholds
 
@@ -113,7 +113,7 @@ Set up multiple alert thresholds to get early warnings:
 | **Notification** | Email |
 | **Email recipients** | your-email@example.com |
 
-![Alert Config](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/alert-config.png)
+![Alert Config](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/alert-config.png)
 
 {{% notice warning %}}
 AWS Budgets alerts are **notification-only** — they do not automatically stop or throttle services. If you receive a 100% alert, you must manually take action (e.g., disable the EventBridge scheduler, delete expensive resources, or set Lambda concurrency limits).
@@ -121,7 +121,7 @@ AWS Budgets alerts are **notification-only** — they do not automatically stop 
 
 6. Click **Create budget**
 
-![Budget Created](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-create.png)
+![Budget Created](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-create.png)
 
 ### Step 3: Monitor Cost Explorer
 
@@ -131,7 +131,7 @@ AWS Cost Explorer provides detailed cost analysis:
 
 2. View costs **grouped by service** to identify the most expensive components:
 
-![Cost Explorer](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/cost-explorer.png)
+![Cost Explorer](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/cost-explorer.png)
 
 ### Step 4: Cost Optimization Tips
 

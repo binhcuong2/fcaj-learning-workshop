@@ -1,4 +1,4 @@
----
+﻿---
 title : "Cấu hình API Gateway & WAF"
 date: 2026-07-03
 weight : 1
@@ -79,14 +79,14 @@ Sau khi triển khai thành công, bạn có thể cấu hình và kiểm tra AP
   * `AllowHeaders`: Chỉ cho phép `Content-Type`, `Authorization`, `x-original-filename`.
   * `AllowMethods`: Chỉ chấp nhận các phương thức an toàn: `GET`, `POST`, `DELETE`, `OPTIONS`.
 
-![Danh sách Routes của API Gateway](/images/5-Workshop/5.4-User-Interaction/api-gateway-routes-1.png)
-![Thông tin chi tiết cấu hình Route](/images/5-Workshop/5.4-User-Interaction/api-gateway-routes-2.png)
+![Danh sách Routes của API Gateway](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/api-gateway-routes-1.png)
+![Thông tin chi tiết cấu hình Route](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/api-gateway-routes-2.png)
 * **Cognito Authorizer JWT Config:**
   * `IdentitySource`: `$request.header.Authorization`
   * `Issuer`: `https://cognito-idp.<region>.amazonaws.com/<UserPoolId>`
   * `Audience`: ID của App Client được cấp phép.
 
-![Cấu hình JWT Authorizer cho API Gateway](/images/5-Workshop/5.4-User-Interaction/api-gateway-jwt-authorizer.png)
+![Cấu hình JWT Authorizer cho API Gateway](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/api-gateway-jwt-authorizer.png)
 * **AWS WAF Rules:**
   * Rule Group do AWS quản lý: `AWSManagedRulesCommonRuleSet` (chống lỗ hổng OWASP phổ biến) và `AWSManagedRulesSQLiRuleSet`.
   * Rate-limit Rule: Giới hạn tối đa 100 requests/IP/5 phút.

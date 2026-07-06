@@ -1,4 +1,4 @@
----
+﻿---
 title : "Chi phí & Ngân sách"
 date: 2026-07-03
 weight : 4
@@ -37,13 +37,13 @@ Hầu hết dịch vụ trong dự án này nằm trong **AWS Free Tier** cho ph
 
 1. Truy cập **AWS Console → Billing and Cost Management → Budgets**
 
-![Budgets Console](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-console.png)
+![Budgets Console](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-console.png)
 
 2. Click **Create budget**
 
 3. Chọn **Customize (advanced)**
 
-![Loại Budget](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-type.png)
+![Loại Budget](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-type.png)
 
 4. Chọn **Cost budget - Recommended**
 
@@ -58,7 +58,7 @@ Hầu hết dịch vụ trong dự án này nằm trong **AWS Free Tier** cho ph
 | **Budgeting method** | Fixed |
 | **Budget amount** | $10.00 (điều chỉnh theo nhu cầu) |
 
-![Cấu hình Budget](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-config.png)
+![Cấu hình Budget](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-config.png)
 
 {{% notice tip %}}
 Với môi trường workshop/development, **$10/tháng** là ngân sách khởi đầu hợp lý. Với production, điều chỉnh dựa trên lượng traffic dự kiến và mẫu sử dụng dịch vụ.
@@ -71,7 +71,7 @@ Bạn có thể lọc theo:
 - **Tag**: Dùng tags để theo dõi chi phí cho dự án cụ thể
 - **Region**: Lọc chỉ `ap-southeast-1`
 
-![Bộ lọc Budget](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-filter.png)
+![Bộ lọc Budget](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-filter.png)
 
 ### Bước 2: Cấu hình Ngưỡng Cảnh báo
 
@@ -113,7 +113,7 @@ Thiết lập nhiều ngưỡng cảnh báo để nhận cảnh báo sớm:
 | **Notification** | Email |
 | **Email recipients** | your-email@example.com |
 
-![Cấu hình Cảnh báo](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/alert-config.png)
+![Cấu hình Cảnh báo](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/alert-config.png)
 
 {{% notice warning %}}
 AWS Budgets alerts chỉ là **thông báo** — chúng không tự động dừng hoặc throttle dịch vụ. Nếu bạn nhận cảnh báo 100%, bạn phải chủ động hành động (ví dụ: tắt EventBridge scheduler, xóa tài nguyên tốn kém, hoặc giới hạn Lambda concurrency).
@@ -121,7 +121,7 @@ AWS Budgets alerts chỉ là **thông báo** — chúng không tự động dừ
 
 6. Click **Create budget**
 
-![Budget đã tạo](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-create.png)
+![Budget đã tạo](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/budget-create.png)
 
 ### Bước 3: Theo dõi Cost Explorer
 
@@ -131,7 +131,7 @@ AWS Cost Explorer cung cấp phân tích chi phí chi tiết:
 
 2. Xem chi phí **nhóm theo dịch vụ** để xác định thành phần tốn kém nhất:
 
-![Cost Explorer](/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/cost-explorer.png)
+![Cost Explorer](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.4-Cost-Budget/cost-explorer.png)
 
 ### Bước 4: Mẹo Tối ưu Chi phí
 

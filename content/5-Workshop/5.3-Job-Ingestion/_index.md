@@ -1,4 +1,4 @@
----
+﻿---
 title : "Jobs Ingestion Pipeline"
 date: 2026-07-03
 weight : 3
@@ -14,7 +14,7 @@ Build an automated job collection pipeline from Google Jobs via SerpAPI, process
 
 #### Architecture 
 
-![Architecture](/images/5-Workshop/5.3-Job-ingestion/Job-ingestion.drawio.png)
+![Architecture](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/Job-ingestion.drawio.png)
 
 ---
 

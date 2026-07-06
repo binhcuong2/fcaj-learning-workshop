@@ -1,4 +1,4 @@
----
+﻿---
 title : "Thiết lập xác thực người dùng với Cognito"
 date: 2026-07-03
 weight : 2
@@ -106,7 +106,7 @@ Mô-đun này đảm nhận vai trò quản lý vòng đời tài khoản (Đăn
   * Đăng nhập thành công: `http://localhost:3000/auth/callback` (hoặc domain Amplify sản xuất).
   * Đăng xuất thành công: `http://localhost:3000/login`.
 
-![Cognito Managed Login](/images/5-Workshop/5.4-User-Interaction/cognito-managed-login.png)
+![Cognito Managed Login](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/cognito-managed-login.png)
 
 ---
 
@@ -120,10 +120,10 @@ Mô-đun này đảm nhận vai trò quản lý vòng đời tài khoản (Đăn
 3. Sau khi stack được tạo xong, ghi nhận giá trị Output `CognitoUserPoolId` và `CognitoUserPoolClientId` để cấu hình `.env.local` cho Frontend.
 
 Kiểm tra cấu hình Cognito User Pool trên AWS Console:
-![Cognito User Pool](/images/5-Workshop/5.4-User-Interaction/cognito-user-pool.png)
+![Cognito User Pool](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/cognito-user-pool.png)
 
 Kiểm tra thông tin App Client Settings:
-![Cognito App Client](/images/5-Workshop/5.4-User-Interaction/cognito-app-client.png)
+![Cognito App Client](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/cognito-app-client.png)
 
 ---
 
@@ -204,4 +204,4 @@ Kiểm tra thông tin App Client Settings:
   *(Payload chứa claim `sub` tương ứng với ID duy nhất của người dùng).*
 
 Bạn có thể kiểm tra danh sách người dùng đã được tạo và kích hoạt trong Cognito User Pool:
-![Cognito Users](/images/5-Workshop/5.4-User-Interaction/cognito-users.png)
+![Cognito Users](/fcaj-learning-workshop/images/5-Workshop/5.4-User-Interaction/cognito-users.png)

@@ -1,4 +1,4 @@
----
+﻿---
 title : "Delete Resources"
 date: 2026-07-03
 weight : 1
@@ -32,7 +32,7 @@ The recommended deletion order ensures dependencies are resolved properly:
 2. Select the Jobs Matching Platform application
 3. Click **Actions → Delete app**
 
-![Delete Amplify](/images/5-Workshop/5.7-Cleanup/5.7.1-Delete-Resources/delete-amplify.png)
+![Delete Amplify](/fcaj-learning-workshop/images/5-Workshop/5.7-Cleanup/5.7.1-Delete-Resources/delete-amplify.png)
 
 ---
 
@@ -113,7 +113,7 @@ Or via the console:
 2. Select parameters matching `/jobs-matching/dev/*`
 3. Click **Delete**
 
-![Delete SSM](/images/5-Workshop/5.7-Cleanup/5.7.1-Delete-Resources/delete-ssm.png)
+![Delete SSM](/fcaj-learning-workshop/images/5-Workshop/5.7-Cleanup/5.7.1-Delete-Resources/delete-ssm.png)
 
 ---
 
@@ -130,7 +130,7 @@ S3 buckets must be **emptied before they can be deleted**. CloudFormation/SAM ca
 3. Click **Empty**
 4. Type **permanently delete** to confirm
 
-![Empty S3](/images/5-Workshop/5.7-Cleanup/5.7.1-Delete-Resources/empty-s3.png)
+![Empty S3](/fcaj-learning-workshop/images/5-Workshop/5.7-Cleanup/5.7.1-Delete-Resources/empty-s3.png)
 
 #### Option B: Empty via AWS CLI
 
@@ -170,7 +170,7 @@ cd backend
 sam delete --stack-name jobs-matching --no-prompts
 ```
 
-![SAM Delete](/images/5-Workshop/5.7-Cleanup/5.7.1-Delete-Resources/sam-delete.png)
+![SAM Delete](/fcaj-learning-workshop/images/5-Workshop/5.7-Cleanup/5.7.1-Delete-Resources/sam-delete.png)
 
 The command will:
 1. Delete the CloudFormation stack and all its resources

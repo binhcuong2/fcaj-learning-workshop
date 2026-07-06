@@ -85,7 +85,7 @@ Sau sự kiện, tôi tổng hợp lại các nội dung có liên quan đến q
 
 ## Hình ảnh tham gia
 
-![Hình ảnh tham gia Meetup 06/06/2026](/images/4-EventParticipated/event2.jpg)
+![Hình ảnh tham gia Meetup 06/06/2026](/fcaj-learning-workshop/images/4-EventParticipated/event2.jpg)
 
 ## Tổng kết
 

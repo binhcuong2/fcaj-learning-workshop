@@ -1,4 +1,4 @@
----
+﻿---
 title : "Quản lý API Keys"
 date: 2026-07-03
 weight : 2
@@ -32,7 +32,7 @@ Luồng hoạt động như sau:
 1. Truy cập **AWS Console → Systems Manager → Parameter Store**
 2. Click **Create parameter**
 
-![Tạo Parameter](/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/create-parameter.png)
+![Tạo Parameter](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/create-parameter.png)
 
 3. Cấu hình parameter:
 
@@ -65,11 +65,11 @@ Lặp lại quy trình tương tự cho Gemini API key:
 | **Type** | SecureString |
 | **Value** | `<your-gemini-api-key>` |
 
-![Cấu hình Gemini Parameter](/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/gemini-param-config.png)
+![Cấu hình Gemini Parameter](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/gemini-param-config.png)
 
 Sau khi tạo cả hai parameter, bạn sẽ thấy chúng trong danh sách:
 
-![Danh sách Parameter](/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/parameter-list.png)
+![Danh sách Parameter](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/parameter-list.png)
 
 ### Bước 2: Tham chiếu Parameters trong SAM Template
 
@@ -162,7 +162,7 @@ aws ssm get-parameters-by-path \
   --output table
 ```
 
-![Danh sách Parameter CLI](/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/cli-param-list.png)
+![Danh sách Parameter CLI](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.2-API-Keys-Management/cli-param-list.png)
 
 ```bash
 # Truy xuất parameter cụ thể (đã giải mã)

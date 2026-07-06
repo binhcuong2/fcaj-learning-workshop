@@ -1,4 +1,4 @@
----
+﻿---
 title : "Create DynamoDB Jobs Table"
 date: 2026-07-03 
 weight : 1
@@ -52,8 +52,8 @@ sam validate  # Validate template.yaml
 sam deploy --guided # Deploy
 ```
 Deploy successfuly:
-![Deploy table successfuly](/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/deploy-cloudformation.png)
-![Deploy table successfuly](/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/deploy-table-success.png)
+![Deploy table successfuly](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/deploy-cloudformation.png)
+![Deploy table successfuly](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/deploy-table-success.png)
 
 ---
 
@@ -63,8 +63,8 @@ Enable TTL (Time To Live - mechanism to automatically delete expired data) to au
 
 Configure the TTL field:
 
-![TTL Configuration](/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/turn-on-ttl.png)
-![TTL Configuration](/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/turn-on-ttl-2.png)
+![TTL Configuration](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/turn-on-ttl.png)
+![TTL Configuration](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/turn-on-ttl-2.png)
 
 
 ---
@@ -73,5 +73,5 @@ Configure the TTL field:
 
 Enable PITR (Point-in-Time Recovery - ability to restore data to any point in time within the last 35 days) to improve recovery capabilities in case of failures.
 
-![PITR Configuration](/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/pitr-config-1.png)
-![PITR Configuration](/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/pitr-config-2.png)
+![PITR Configuration](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/pitr-config-1.png)
+![PITR Configuration](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.1-setup-job-table/pitr-config-2.png)

@@ -1,4 +1,4 @@
----
+﻿---
 title : "Policy IAM"
 date: 2026-07-03
 weight : 1
@@ -141,15 +141,15 @@ Policies:
 
 2. Tìm kiếm role của Lambda function (ví dụ: tìm `jobs-matching-backend` để xem tất cả roles của stack)
 
-![Tìm kiếm IAM Roles](/images/5-Workshop/5.6-Operation-Security/5.6.1-IAM-Policies/iam-roles-search.png)
+![Tìm kiếm IAM Roles](/fcaj-learning-workshop/images/5-Workshop/5.6-Operation-Security/5.6.1-IAM-Policies/iam-roles-search.png)
 
 3. Click vào role để xem các policies được gắn
 
-![Chi tiết IAM Role](/images/5-Workshop/5.6-Operations-Security/5.6.1-IAM-Policies/iam-role-detail.png)
+![Chi tiết IAM Role](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.1-IAM-Policies/iam-role-detail.png)
 
 4. Mở rộng từng policy để xác minh quyền và tài nguyên cụ thể
 
-![Chi tiết IAM Policy](/images/5-Workshop/5.6-Operations-Security/5.6.1-IAM-Policies/iam-policy-detail.png)
+![Chi tiết IAM Policy](/fcaj-learning-workshop/images/5-Workshop/5.6-Operations-Security/5.6.1-IAM-Policies/iam-policy-detail.png)
 
 {{% notice tip %}}
 Bạn cũng có thể dùng AWS CLI để kiểm tra IAM policies gắn với Lambda execution role:

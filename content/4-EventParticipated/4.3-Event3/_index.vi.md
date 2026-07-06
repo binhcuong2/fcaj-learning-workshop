@@ -88,7 +88,7 @@ Sau khi tham gia sự kiện, tôi tổng hợp lại các nội dung có liên 
 
 ## Hình ảnh minh chứng tham gia
 
-![Hình ảnh tham gia FCAJ Community Day Tháng 6](/images/4-EventParticipated/event3.jpg)
+![Hình ảnh tham gia FCAJ Community Day Tháng 6](/fcaj-learning-workshop/images/4-EventParticipated/event3.jpg)
 
 ## Tổng kết
 

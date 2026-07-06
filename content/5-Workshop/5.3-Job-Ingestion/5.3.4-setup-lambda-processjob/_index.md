@@ -1,4 +1,4 @@
----
+﻿---
 title : "Build Process Job Lambda"
 date: 2026-07-03 
 weight : 4
@@ -181,6 +181,6 @@ sam deploy
 
 Deploy successfully:
 
-![Deploy process job](/images/5-Workshop/5.3-Job-ingestion/5.3.4-setup-lambda-processjob/deploy-processjob.png)
+![Deploy process job](/fcaj-learning-workshop/images/5-Workshop/5.3-Job-ingestion/5.3.4-setup-lambda-processjob/deploy-processjob.png)
 
 ---

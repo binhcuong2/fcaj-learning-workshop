@@ -26,7 +26,7 @@ User action trên frontend
   -> Lưu kết quả vào DynamoDB Match Results table
 ```
 
-![CV Matching Flow Architecture](/fcaj-learning-workshop/images/5-workshop/5.5-cv-matching-flow/5-cv-matching-architecture.png)
+![CV Matching Flow Architecture](/fcaj-learning-workshop/images/architecture-v2.jpg)
 
 ## Thông tin implementation
 

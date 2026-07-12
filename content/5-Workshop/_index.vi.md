@@ -1,4 +1,4 @@
----
+﻿---
 title: "Workshop"
 date: 2026-07-03
 weight: 5
@@ -18,6 +18,12 @@ Bạn sẽ cấu hình và xây dựng các thành phần:
 + **Tương tác người dùng** - Bảo mật API Gateway, Cognito User Pool để xác thực, DynamoDB cho cơ sở dữ liệu, các Lambda API nghiệp vụ chính và triển khai Frontend trên AWS Amplify.
 + **Luồng đánh giá CV** - Xử lý CV được tải lên S3, trích xuất nội dung bằng Lambda, gọi API Gemini để phân tích mức độ phù hợp và lưu kết quả.
 + **Vận hành & Bảo mật** - Cấu hình IAM policies, quản lý API key, giám sát & cảnh báo với CloudWatch và quản lý chi phí qua AWS Budgets.
+
+### Link truy cập sản phẩm
+
+Dự án **AI Job Matching Platform** đã được triển khai để người xem có thể truy cập và trải nghiệm trực tiếp các chức năng của hệ thống.
+
+- **Website:** [Truy cập AI Job Matching Platform](https://develop.d11bs7h108pe40.amplifyapp.com/)
 
 #### Nội dung
 

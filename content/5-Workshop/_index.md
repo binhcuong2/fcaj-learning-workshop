@@ -1,4 +1,4 @@
----
+﻿---
 title: "Workshop"
 date: 2026-07-03
 weight: 5
@@ -17,6 +17,12 @@ You will configure and build:
 + **User Interaction** - Secure API Gateway, Cognito User Pools for authentication, DynamoDB for database storage, Lambda business APIs, and deploy the Frontend with AWS Amplify.
 + **CV Matching Flow** - Process uploaded CVs in S3, extract content using Lambda, call the Gemini API for suitability evaluation, and store results.
 + **Operations & Security** - Configure IAM policies, API key rotation, CloudWatch monitoring & alarms, and AWS Budgets for cost control.
+
+### Deployed Application
+
+The **AI Job Matching Platform** has been deployed so that reviewers can directly access and explore the system features.
+
+- **Website:** [Access AI Job Matching Platform](https://develop.d11bs7h108pe40.amplifyapp.com/)
 
 #### Content
 
